@@ -9,32 +9,51 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/images">
 
     <title>John Meng Bootstrap</title>
 </head>
 
 <body>
-    <div class="container">
-            <nav class="navbar fixed top">
-                <div class="row">
-                    <div class="col-md-3">
-                        <a class="btn" href="#">John Meng</a>
-                    </div>
-                    <div class="col-md-3">
-                        <a class="navlink" href="#">About</a>
-                    </div>
-                    <div class="col-md-3">
-                        <a class="navlink" href="#">Porfolio</a>
-                    </div>
-                    <div class="col-md-3">
-                        <a class="navlink" href="#">Contacts</a>
-                    </div>
-                </div>
+    <header>
 
+        <div class="container">
+
+            <h1 class="navname">John Meng</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
             </nav>
         </div>
 
+    </header>
 
+
+
+    <div class="container">
+        <div class="contactcontain">
+            <h1>Contact</h1>
+            <br>
+            <form action="#">
+                Name: <br> <input class="inputs" type="text" name="Name" id="Name"> <br>
+                <br>
+                Email: <br> <input class="inputs" type="text" name="Email" id="Email"> <br>
+                <br>
+                Message: <br> <input class="inputs1" type="text" name="Message" id="Messgae"> <br>
+                <br>
+                <input id="submit" type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+            Copyright
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

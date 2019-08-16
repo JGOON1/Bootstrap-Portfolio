@@ -9,67 +9,60 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/images">
 
     <title>John Meng Bootstrap</title>
 </head>
 
 <body>
-    <div class="container">
-            <nav class="navbar fixed top">
-                <div class="row">
-                    <div class="col-md-3">
-                        <a class="btn" href="#">John Meng</a>
-                    </div>
-                    <div class="col-md-3">
-                        <a class="navlink" href="#">About</a>
-                    </div>
-                    <div class="col-md-3">
-                        <a class="navlink" href="#">Porfolio</a>
-                    </div>
-                    <div class="col-md-3">
-                        <a class="navlink" href="#">Contacts</a>
-                    </div>
-                </div>
+    <header>
 
+        <div class="container">
+
+            <h1 class="navname">John Meng</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
             </nav>
         </div>
-        <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <section>
-                            <h1>Portfolio</h1>
-    
-                            <div class="logos">
-                                <img src="images/hangman.jpeg" alt="Hangman">
-                                <h3>Hangman</h3>
-                            </div>
-                            <div class="logos">
-                                <img src="images/rpg game.jpeg" alt="RPG Game">
-                                <h3>RPG Game</h3>
-                            </div>
-                            <div class="logos">
-                               <img src="images/trivia.jpeg" alt="Trivia">
-                               <h3>Trivia</h3>
-                            </div>
-                            <div class="logos">
-                                <img src="images/rutgers.jpeg" alt="Rutgers info Widget">
-                                <h3>Rutgers Info Widget</h3>
-                            </div>
-                            <div class="logos">
-                                <img src="images/rps.jpeg" alt="Rock Paper Scissors">
-                                <h3>Rock Paper Scissors</h3>
-                            </div>
-                        </section>
-                    </div>
-                </div>
+    </header>
+
+    <div id="main-container" class="container">
+        <div class="sec1"></div>
+        <section class="main-section">
+            <h1>Portfolio</h1>
+
+            <div class="logos">
+                <img src="assets/images/hangman.jpeg" alt="hangman">
+                <h3>Hangman</h3>
             </div>
-            <footer>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">Copyright</div>
-                    </div>
-                </div>
-            </footer>
+            <div class="logos">
+                <img src="assets/images/rpg game.jpeg" alt="RPGgame">
+                <h3>RPG Game</h3>
+            </div>
+            <div class="logos">
+                <img src="assets/images/trivia.jpeg" alt="Trivia">
+                <h3>Trivia Game</h3>
+            </div>
+            <div class="logos">
+                <img src="assets/images/rutgers.jpeg" alt="Rutgers">
+                <h3>Rutgers Info Widget</h3>
+            </div>
+            <div class="logos">
+                <img src="assets/images/rps.jpeg" alt="RPS">
+                <h3>Rock Paper Scissors</h3>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        Copyright
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
